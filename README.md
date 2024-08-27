@@ -1,4 +1,5 @@
 <h1 align="center"> APIRest para Registro de Tareas </h1>
+<h3 align="center">BackEnd y FrontEnd</h3>
 
 <div align="center">
 
@@ -6,8 +7,9 @@
   ![Static Badge](https://img.shields.io/badge/STATUS-TERMINADO-blue?style=flat)
   
   ![Static Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![Static Badge](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+  ![Static Badge](https://img.shields.io/badge/SpringbOOT-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
   ![Static Badge](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+  ![Static Badge](https://img.shields.io/badge/REACT-005571?style=for-the-badge&logo=React&logoColor=white)
 
 </div>
 
@@ -15,10 +17,9 @@
 
 # Desafío Técnico
 
-  CRUD APIRest en Java con Spring Boot y MYSQL para el Registro de Tareas
+  APIRest CRUD para el Registro de Tareas, desarrollada en Java con Spring Boot y MYSql para el BackEnd y React para el FrontEnd 
 
-## Backend: 
-### Carpeta: SpringBootRestTasks
+## Backend 
 
 - Endpoint para Listar Tareas
 - Endpoint para Crear Tareas
@@ -30,23 +31,27 @@
 - Collección para Postman
 - JavaDoc
 
-## FrontEnd: 
-### Carpeta: ReactTasks
+## FrontEnd
+Click [aquí](https://github.com/thanzel/frontend-technical-tasks-challenge) para visualizar el repositorio del FrontEnd 
 
   - Página para Listar Tareas
   - Página para Crear Tareas
 
 >[!TIP]
 >
-> En /resources encontrarán:
+> En /resources se encuentra:
 >   * Script para Base de datos
->   * Collección de Postman para probar los endpoint 
->   * O si prefieren, pueden probar en [Swagger](http://localhost:8080/swagger-ui/index.html#/)
+>   * Collección de Postman
+>   * Se puede probar también en [Swagger](http://localhost:8080/swagger-ui/index.html#/)
       
 ## Desarrollador
 
 [Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
 * Software Developer - Backend Java Jr. - Spring Boot
-
- 
 * FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
+
+# Despliegue
+  #### Desarrollo:
+  Para probar el frontend se debe ejecutar el backend en el puerto 8080 y luego levantar el frontend (npm start), esta sería la url: http://localhost:3000/
+  #### Producción:
+  Se deberá desplegar el backend en algún servidor (por ejemplo: Heroku) y levantar la app
