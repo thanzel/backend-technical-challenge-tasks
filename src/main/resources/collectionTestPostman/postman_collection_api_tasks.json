@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "bbdae866-ea65-4291-ba75-a17e3a81c4cb",
+		"name": "ApiTasksLog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15946227"
+	},
+	"item": [
+		{
+			"name": "ListarTareas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/registrar-tareas/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registrar-tareas",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearTarea",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Crea nueva tarea\",\r\n    \"dateCreate\": \"2024-08-26T12:30:00\",\r\n    \"isCurrent\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/registrar-tareas/crear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registrar-tareas",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarTarea",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/registrar-tareas/eliminar/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registrar-tareas",
+						"eliminar",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarTarea",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Actualiza esta tarea\",\r\n    \"dateCreate\": \"2024-08-26T17:25:00\",\r\n    \"isCurrent\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/registrar-tareas/actualizar/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registrar-tareas",
+						"actualizar",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarTareaId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/registrar-tareas/buscar/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registrar-tareas",
+						"buscar",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

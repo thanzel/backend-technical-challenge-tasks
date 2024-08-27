@@ -1,0 +1,9 @@
+com.application.tasks.advice
+com.application.tasks.configuration
+com.application.tasks.controller
+com.application.tasks.dao
+com.application.tasks.dto
+com.application.tasks.entity
+com.application.tasks.repository
+com.application.tasks.service
+com.application.tasks
