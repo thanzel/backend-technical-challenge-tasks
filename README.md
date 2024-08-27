@@ -27,31 +27,37 @@
 - Endpoint para Eliminar Tareas
 - Endpoint Adicional para buscar una Tarea
 - Test unitarios con JUnit y Mockito
-- Scripts de Base de Datos
-- Collección para Postman
-- JavaDoc
+- Scripts de Base de Datos (archivo /resources/scriptBD/rest_api_task_db.sql)
+  - Al levantar el Backend en desarrollo, el archivo /resources/import.sql genera data de prueba en la tabla correspondiente
+- Collección para importar en Postman con la construcción de los endpoints (archivo /resources/collectionTestPostmancollectionTestPostman/postman_collection_api_tasks.json
+- JavaDoc (archivo /target/site/apidocs/index.html)
+
+
+>[!TIPS]
+>
+> Recuerda que el desarrollo incluye:
+>   * Script para Base de datos
+>   * File para cargar data inicial
+>   * JavaDoc
+>   * Collección de Postman
+>   * [Swagger](http://localhost:8080/swagger-ui/index.html#/)
+      
 
 ## FrontEnd
 Click [aquí](https://github.com/thanzel/frontend-technical-tasks-challenge) para visualizar el repositorio del FrontEnd 
 
-  - Página para Listar Tareas
-  - Página para Crear Tareas
-
->[!TIP]
->
-> En /resources se encuentra:
->   * Script para Base de datos
->   * Collección de Postman
->   * Se puede probar también en [Swagger](http://localhost:8080/swagger-ui/index.html#/)
-      
-## Desarrollador
-
-[Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
-* Software Developer - Backend Java Jr. - Spring Boot
-* FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
+  - Página Web para Listar Tareas
+  - Página Web para Crear Tareas
 
 # Despliegue
   #### Desarrollo:
   Para probar el frontend se debe ejecutar el backend en el puerto 8080 y luego levantar el frontend (npm start), esta sería la url: http://localhost:3000/
   #### Producción:
   Se deberá desplegar el backend en algún servidor (por ejemplo: Heroku) y levantar la app
+
+    
+## Desarrollador
+
+[Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
+* Software Developer - Backend Java Jr. - Spring Boot
+* FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
