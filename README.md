@@ -58,6 +58,6 @@ Click [aquí](https://github.com/thanzel/frontend-technical-tasks-challenge) par
     
 ## Desarrollador
 
-[Yenny](https://www.linkedin.com/in/yenny-chipamo/)
+[Yenny](...)
 * Software Developer - Backend Java Jr. - Spring Boot
 * FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
