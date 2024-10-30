@@ -1,4 +1,4 @@
-![Grey and White Simple Modern Marketing Linkedln Background Photo](https://github.com/user-attachments/assets/b13e05bd-2d3a-44ea-872a-fb24257bbf48)
+![Grey and White Simple Modern Marketing Linkedln Background Photo](https://github.com/user-attachments/assets/0c17a8af-da56-451b-b4fc-5bc773597786)
 
 <div align="center">
    
@@ -58,6 +58,6 @@ Click [aquí](https://github.com/thanzel/frontend-technical-tasks-challenge) par
     
 ## Desarrollador
 
-[Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
+[Yenny](https://www.linkedin.com/in/yenny-chipamo/)
 * Software Developer - Backend Java Jr. - Spring Boot
 * FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
